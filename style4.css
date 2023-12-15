@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    width: 1100px;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+}
+a:link{
+    color: black;
+}
+a:hover{
+    color: whitesmoke;
+}
+a:active{
+    color: whitesmoke;
+}
+a:visited{
+    color: rgb(114, 114, 114);  
+}
+nav{width: 100%;}
+nav ul li{
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav ul li a{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+
+}
+.space{width: 300px;}
+.box1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/ingoPhilosophy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrap4{
+    width: 100%;
+    height: 2183px;
+    background-image: url(img/philosophyimg2.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.box4_1{
+    width: 1100px;
+    height: 2183px;
+    margin: auto;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 19px;
+    font-weight: 100;
+    line-height: 45px;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: #DEDEDE;
+}
+footer img{
+    margin-left: 200px; 
+    margin-top: 39px;
+    width: 207px; 
+    height: 25px;
+}
